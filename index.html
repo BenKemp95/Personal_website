@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li><a class="nav-link" href="#welcome-section">About me</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#profile-section">Contact Info</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hello, I'm Ben!</h1>
+      <div>
+        <p class="personal-description">I am CSUF graduate with a Bachelors degree in Business Administration.
+          I am currently expanding my skillsets by pursuing my interests in coding and web design.</p>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2 class="project-title">Take a look at some of my projects</h2>
+      <div class="projects-link">
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_sudoku_solver">
+          <p class="project-description">Sudoku Solver</p>
+          <img class="project-preview" src="https://i.imgur.com/xTVFHaL.png" alt="Sudoku board">
+          <p class="project-synopsis">I wrote the logic behind a sudoku solver in JavaScript then wrote post
+            logic for solving and checking answers on a Node/Express application server. You can input your
+            own board state and have the options to either solve the board based on your prompt, or check values for
+            specific input and receive instant feedback on if it is a valid answer.</p>
+
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_Survey_form" >
+          <p class="project-description">Sample Survey</p>
+          <img class="project-preview" src="https://i.imgur.com/S5ivt7H.png" alt="Survey form">
+          <p class="project-synopsis">This was a project I did early on to practice HTML and CSS.
+            It is a simple sample survey using form, radio buttons, text area, and drop down menus.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freecodecamp_treemap">
+          <p class="project-description">Tree-map Data Visualization</p>
+          <img class="project-preview" src="https://i.imgur.com/E8vc0tG.png" alt="Tree-map graphic">
+          <p class="project-synopsis"> I was given three JSON object links and tasked with visualizing one of
+            them by making a tree-map scaled to the values of the data in the objects. I created a dynamic
+            graph that you can interact with by hovering your mouse over entries to receive more information.
+            I also made it so that you could toggle between the three different JSON objects to look at maps of
+            each JSON Object and the tree-map would dynamically change to fit the new data.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_technical_documentation_page">
+          <p class="project-description">Technical Information Page</p>
+          <img class="project-preview" src="https://i.imgur.com/haBvOs8.png" alt="Technical Information page">
+          <p class="project-synopsis">This was a project designed to practice HTML and CSS elements. It is a single page with anchored
+          links to the different title elements of the page.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_URL_Shortener_Microservice">
+          <p class="project-description">URL Shortener Microservice</p>
+          <img class="project-preview" src="https://i.imgur.com/ZNpG9vc.png" alt="URL shortener">
+          <p class="project-synopsis">Using Node and Express with MongoDB, I wrote code that posts user
+            input URLs into a database, and returns a shortened URL back to the user that they can then
+            use to go to the original URL location. I accounted for redundancy and made sure that if a duplicate
+            URL was entered by a user, they would receive the already existing database entry rather than creating
+            another entry to keep the database organized.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_American_British_Translator">
+          <p class="project-description">American-British Translator</p>
+          <img class="project-preview" src="https://i.imgur.com/4oky5qj.png" alt="American-British Translator">
+          <p class="project-synopsis">Using several objects of key value pairs that show an American spelling or
+            version of a word or phrase and then its British counterpart, I wrote the logic to translate a user input
+            string into the opposite version. The starting key value pairs ranged from one word phrases to multiple
+            word phrases, so I had to account for that when searching for matching phrases from the database to translate.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_build_a_drum_machine">
+          <p class="project-description">Drum Machine in React</p>
+          <img class="project-preview" src="https://i.imgur.com/nGbw0hw.png" alt="Drum Machine">
+          <p class="project-synopsis">For this project I was given nine links that each had a sound element and told to make
+          an interactive drum machine that would play back each sound when clicked or the corresponding key was pushed. I build it in
+            React JavaScript using multiple different states, useEffects, and useRef. When playing back each sound, the name of the sound
+          will be displayed for the user to see.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_build_a_javascript_calculator">
+          <p class="project-description">JavaScript Calculator in React</p>
+          <img class="project-preview" src="https://i.imgur.com/rxm9E64.png" alt="Calculator">
+          <p class="project-synopsis">I made a JavaScript Calculator in React that can do all basic calculator math functions. If you
+          chain math functions, it will keep the working calculation of the previous entry and solve based on that. You can accurately use decimals
+          and negative numbers, and even change what math function you had entered if you clicked the wrong one by mistake.</p>
+        </a>
+        <a class="project-tile" href="https://github.com/BenKemp95/freeCodeCamp_visulaize_data_with_a_choropleth_map">
+          <p class="project-description">Choropleth Map of USA Education Data</p>
+          <img class="project-preview" src="https://i.imgur.com/QZgimcn.png" alt="USA map">
+          <p class="project-synopsis">Using the visualization language D3 in JavaScript, I used a linked JSON object to create an interactive
+          map of the United States that showed the education density of each state.</p>
+        </a>
+      </div>
+      <div id="more">You can find more of my projects on my GitHub at <a href="https://github.com/BenKemp95">https://github.com/BenKemp95</a></div>
+    </section>
+    <section id="profile-section">
+      <div  class="socials">
+        <h3>My socials and ways to contact me</h3>
+      </div>
+        <div class="social-div">
+          <a class="social-link"  href="https://www.linkedin.com/in/benjamin-kemp/" >
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+
+          <a class="social-link"  href="https://github.com/BenKemp95"  >
+            <i class="fa-brands fa-github"></i> GitHub
+          
+          </a>
+        </div>
+    </section>
+  </body>
+</html>
